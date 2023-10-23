@@ -7,13 +7,13 @@
             <tr>
               <th class="notice-number">번호</th>
               <th class="notice-title">제목</th>
+              <th class="notice-hit has-text-right"></th>
               <th class="notice-created-at has-text-right">등록일</th>
-              <th class="notice-hit has-text-right">조회수</th>
             </tr>
           </thead>
           <tbody>
             <tr
-              v-for="{ id, title, created_at, hit } in notices"
+              v-for="{ id, title, created_at } in notices"
               :key="`${id}-desktop`"
               class="is-hidden-mobile">
               <td>{{ id }}</td>
@@ -24,8 +24,8 @@
                   {{ title }}
                 </router-link>
               </td>
+              <td class="has-text-right"></td>
               <td class="has-text-right">{{ date(created_at) }}</td>
-              <td class="has-text-right">{{ hit }}</td>
             </tr>
             <tr
               v-for="{ id, title, created_at, hit } in notices"
@@ -40,8 +40,7 @@
                   </router-link>
                 </div>
                 <span>#{{ id }}</span> ·
-                {{ date(created_at) }} ·
-                조회수: {{ hit }}
+                {{ date(created_at) }}
               </td>
             </tr>
           </tbody>
@@ -66,6 +65,7 @@
 <script>
 import { server } from '@/server.js'
 import range from 'lodash/range'
+import { notices_page, count } from '@/notices.js'
 
 export default {
   name: 'notice-table',
@@ -103,19 +103,20 @@ export default {
     }
   },
   async created () {
+
     const page = this.page
     this.beforePage = page
-    this.notices = await fetch(`${server}/notice?page=${page}`)
+    this.notices = notices_page(page) /*await fetch(`${server}/notice?page=${page}`)
+      .then(response => response.json())*/
+    this.count = count() /* await fetch(`${server}/notice/count`)
       .then(response => response.json())
-    this.count = await fetch(`${server}/notice/count`)
-      .then(response => response.json())
-      .then(response => +response.count)
+      .then(response => +response.count) */
   },
   async beforeUpdate () {
     const { page, beforePage, noticeId, beforeNoticeId } = this
     if (page !== beforePage || noticeId !== beforeNoticeId) {
-      this.notices = await fetch(`${server}/notice?page=${page}`)
-        .then(response => response.json())
+      this.notices = notices_page(page) /* await fetch(`${server}/notice?page=${page}`)
+        .then(response => response.json()) */
       this.beforePage = page
       this.beforeNoticeId = noticeId
     }

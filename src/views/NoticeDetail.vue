@@ -13,8 +13,7 @@
             </h1>
             <div class="metadata">
               <span>#{{ notice.id }}</span> ·
-              <time>{{ date }}</time> ·
-              <span>조회수: {{ notice.hit }}</span>
+              <time>{{ date }}</time>
             </div>
             <div v-html="compiledMarkdown" class="content"></div>
           </div>
@@ -33,6 +32,7 @@ import marked from 'marked'
 import NoticeTable from '@/components/NoticeTable.vue'
 
 import { server } from '@/server.js'
+import { notice } from '../notices'
 
 export default {
   metaInfo () {
@@ -57,15 +57,15 @@ export default {
     }
   },
   async created () {
-    this.notice = await fetch(`${server}/notice/${this.$route.params.id}`)
-      .then(response => response.json())
+    this.notice = notice(this.$route.params.id) /* await fetch(`${server}/notice/${this.$route.params.id}`)
+      .then(response => response.json()) */
     this.page = (+this.$route.query.page) || 1
     this.fetched = true
   },
   async beforeRouteUpdate (to, from, next) {
     this.page = (+to.query.page) || 1
-    this.notice = await fetch(`${server}/notice/${to.params.id}`)
-      .then(response => response.json())
+    this.notice = notice(to.params.id) /* await fetch(`${server}/notice/${to.params.id}`)
+      .then(response => response.json()) */
     next()
   },
   components: { NoticeTable }
