@@ -34,6 +34,7 @@
             <div class="column history-table is-6">
               <table class="table">
                 <tbody>
+                  <tr><td>2023</td>                 <td>여름</td><td>참가생 77명, 몰입캠프 15기</td></tr>
                   <tr><td>2022</td>                 <td>여름</td><td>참가생 79명, 몰입캠프 14기</td></tr>
                   <tr><td rowspan="2">2021</td>     <td>겨울</td><td>참가생 71명, 몰입캠프 13기</td></tr>
                   <tr>                              <td>여름</td><td>참가생 43명, 몰입캠프 12기</td></tr>

@@ -1,4 +1,20 @@
 export const notices = [
+
+{
+'created_at': '2023-10-25',
+'title': '[공지] 2023년도 몰입캠프 겨울학기 모집',
+'content':
+
+`안녕하세요.
+
+KAIST와 MOU 맺은 국내 대학 학부생을 대상으로 **<2023년도 몰입캠프 겨울학기>** 모집을 시작합니다.
+
+**모집 기간은 10월 26일(목) ~ 11월 8일(수) 자정까지(밤 12시)이고**, 모집 기간 이후에는 지원을 받지않습니다.
+
+문의 사항: madcamp.kaist@gmail.com
+`
+},
+
 {
 'created_at': '2023-5-17',
 'title': '[공지] 2023년도 몰입캠프 여름학기 참가 결과 발표',
@@ -592,7 +608,8 @@ KAIST와 MOU 맺은 해외 대학을 대상으로, 2018년 몰입캠프 겨울�
 },
 
 
-].reverse().map(({title, created_at, content}, index) => {return {'title':title, 'created_at':created_at, 'content':content, 'id':index + 1}})
+].reverse().map(({title, created_at, content}, index) => {return {'title':title, 'created_at':created_at, 'content':content, 'id':index + 8 }})
+// 기존 사이트에서 인덱스가 8부터 시작하므로, consistency를 위해 8부터 시작.
 
 
 export function count() {
