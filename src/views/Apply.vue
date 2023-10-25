@@ -31,7 +31,7 @@
                 <th
                   class="subject">모집기간</th>
                 <td class="description" colspan="2">
-                  <time datetime="2023-04-24">4월 24일</time>-<time datetime="2023-05-07">5월 7일(자정까지)</time><br>
+                  <time datetime="2023-10-26">10월 26일</time>-<time datetime="2023-11-08">11월 8일(자정까지)</time><br>
                 </td>
               </tr>
 <!--
@@ -42,7 +42,7 @@
 -->
               <tr>
                 <th class="subject">강의계획서</th>
-                <td colspan="2"><a class="link" href="https://bit.ly/3mOWtcs">https://bit.ly/3mOWtcs</a></td>
+                <td colspan="2"><a class="link" href="https://bit.ly/3Q2AOrK">https://bit.ly/3Q2AOrK</a></td>
               </tr>
               <tr>
                 <th class="subject">선발방법</th>
@@ -57,7 +57,7 @@
                 <th
                   class="subject">결과발표</th>
                 <td colspan="2">
-                  <time datetime="2023-05-17">5월 17일</time><br>
+                  <time datetime="2023-11-15">11월 15일</time><br>
                 </td>
               </tr>
 
@@ -71,7 +71,7 @@
                   캠프기간
                 </th>
                 <td class="description" colspan="2">
-                  <time datetime="2023-06-29">6월 29일</time>-<time datetime="2023-07-28">7월 28일</time>
+                  <time datetime="2023-12-28">12월 28일</time>-<time datetime="2024-01-27">1월 27일</time>
                 </td>
               </tr>
               <tr>
@@ -84,7 +84,7 @@
               </tr>
               <tr>
                 <th
-                  rowspan="3"
+                  rowspan="4"
                   class="subject">
                   참가비용
                 </th>
@@ -93,6 +93,12 @@
                 </th>
                 <td class="description">
                   5만원(1학점)
+                </td>
+              </tr>
+              <tr>
+                <th class="description">운영비</th>
+                <td class="description">
+                  5만원
                 </td>
               </tr>
               <tr>
@@ -130,9 +136,9 @@
           <p>입력된 자료를 기준으로 서류심사가 진행되오니, 다소 항목이 많은 편이지만, 지원자분들을 잘 파악할 수 있도록 성실한 작성을 부탁드립니다!</p>
           <p>몰입캠프 참가자로 선정된 후 취소 시에는, 추후 재지원 시 선발 순위가 많이 낮아집니다.</p>
           <p><u><b>Internet Explorer에서 강의계획서 및  지원서가 열리지 않을 경우 Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
-          <p>지원서 링크: https://forms.gle/uTdHUmrn2nNRG5SS8</p>
+          <p>지원서 링크: https://forms.gle/Q3ypdAkDRbys2KkE7</p>
           <br>
-          <a href="https://forms.gle/uTdHUmrn2nNRG5SS8" target="_blank" class="button is-primary is-large">지원서 작성</a>
+          <a href="https://forms.gle/Q3ypdAkDRbys2KkE7" target="_blank" class="button is-primary is-large">지원서 작성</a>
         </div>
       </div>
     </section>
