@@ -621,5 +621,5 @@ export function notices_page(page) {
 }
 
 export function notice(id) {
-    return notices[id-1]
+    return notices[id-8] // 기존 사이트가 8부터 시작
 }
