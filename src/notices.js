@@ -608,9 +608,10 @@ KAIST와 MOU 맺은 해외 대학을 대상으로, 2018년 몰입캠프 겨울�
 },
 
 
-].reverse().map(({title, created_at, content}, index) => {return {'title':title, 'created_at':created_at, 'content':content, 'id':index + 8 }})
+].reverse().map(({title, created_at, content}, index) => {return {'title':title, 'created_at':created_at.replace(/-/g, '/'), 'content':content, 'id':index + 8 }})
 // 기존 사이트에서 인덱스가 8부터 시작하므로, consistency를 위해 8부터 시작.
-
+// Safari에서는 YYYY-MM-DD를 date string으로 인식하지 못함
+// 정규표현식으로 YYYY/MM/DD으로 대체
 
 export function count() {
     return notices.length
