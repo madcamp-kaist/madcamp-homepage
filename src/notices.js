@@ -1,6 +1,6 @@
 export const notices = [
   {
-    created_at: "2023-11-16",
+    created_at: "2023-11-15",
     title: "[공지] 2023년도 몰입캠프 겨울학기 참가 결과 발표",
     content: `안녕하세요.
 
