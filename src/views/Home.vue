@@ -30,13 +30,11 @@
 
 <section class="container video-container prologue">
 	<div class="video">
-        <div class="video-wrap">
-            <iframe width="100%" height="378" src="https://www.youtube-nocookie.com/embed/DWGAHwzPs0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
-        </div>
-	<!--  <div style="text-align:center;margin-top:10px; margin-bottom:10px;">
-		<p><몰입캠프 소개 영상></p>
-	</div> -->
+      <div class="video-wrap">
+        <img src="@/assets/intro-main.png" alt="메인 사진">
+        <span class="label">함께 몰입하는 즐거움, 몰입캠프</span>
+      </div>
+  </div>
     </section>
 
 
@@ -101,14 +99,14 @@
               <br>
 
               <h3 class="image-header">
-                <img src="@/assets/intro-immerse-1.jpg" alt="코딩에 집중하는 학생들">
+                <img src="@/assets/intro-immerse-2.jpg" alt="코딩에 집중하는 학생들">
                 <span class="label">몰입하는 즐거움</span>
               </h3>
               <p>열정을 가진 사람들과 함께 하는 과정에서는, 평소 느끼기 힘든 몰입의 즐거움이 생깁니다. 주당 80~100시간씩 개발을 해도 즐거운 상태. 정말 이해하기 힘든 그런 경험을 느껴보고 싶지 않으세요?</p>
               <br>
 
               <h3 class="image-header">
-                <img src="@/assets/intro-other-life-1.jpg" alt="스타트업에 관한 강연">
+                <img src="@/assets/intro-other-life.png" alt="스타트업에 관한 강연">
                 <span class="label">삶의 한 형태를 경험</span>
               </h3>
               <p>대학에서는 스타트업, 대기업, 연구소 등과 같은 삶의 여러 형태에 대해서 경험하기 어렵습니다. 본 코스를 통해서, 스타트업이나 창업이라는, 혹은 본인의 일에 온전히 매진하는 삶을 간접적으로 경험해보세요.</p>
@@ -332,7 +330,7 @@ export default {
 
 .home-notice{
 background-color: #f6e164;
-font-color: black;
+//font-color: black;
 margin-top: 1em;
 margin-bottom: 0.5em;
 }
@@ -370,10 +368,19 @@ margin-bottom: 0.5em;
     padding-left: 25%;
     padding-right: 25%;
     @media screen and (max-width: 1087px) {
-	padding-left: 0%;
-    	padding-right: 0%;
-
-     }
+	  padding-left: 0%;
+    padding-right: 0%;
+    }
+    .label {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: black;
+    background-color: #fae047;
+  }
   }
 
 
@@ -385,6 +392,8 @@ margin-bottom: 0.5em;
     left: 1em;
     bottom: 1em;
     font-size: 1.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
     color: black;
     background-color: #fae047;
   }

@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import History from './views/History.vue'
 import Apply from './views/Apply.vue'
-import QnA from './views/QnA.vue'
+import FAQ from './views/FAQ.vue'
 import Notice from './views/Notice.vue'
 import NoticeWrite from './views/NoticeWrite.vue'
 import NoticeDetail from './views/NoticeDetail.vue'
@@ -32,9 +32,9 @@ export default new Router({
       component: Apply
     },
     {
-      path: '/qna',
-      name: 'qna',
-      component: QnA
+      path: '/faq',
+      name: 'faq',
+      component: FAQ
     },
     {
       path: '/notice',
