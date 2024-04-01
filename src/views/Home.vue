@@ -373,9 +373,9 @@ margin-bottom: 0.5em;
     }
     .label {
     position: absolute;
-    left: 1em;
-    top: 1em;
-    font-size: 1.5rem;
+    left: 0.5em;
+    top: 0.5em;
+    font-size: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     color: black;
