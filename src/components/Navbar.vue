@@ -35,12 +35,9 @@
             <a @click="closeAndGo('/')" class="navbar-item">
               소개
             </a>
-            <a @click="closeAndGo('/qna')" class="navbar-item">
-              자주 묻는 질문
-            </a>
             <hr class="navbar-divider" style="background-color: whitesmoke">
             <a
-              href="https://bit.ly/3Q2AOrK"
+              href="https://bit.ly/43GyWLv"
               class="navbar-item syllabus"
               target="_blank">
               강의계획서
@@ -55,7 +52,10 @@
             게시판
           </div>
           <div class="navbar-dropdown is-right is-boxed">
-            <a @click="closeAndGo('/notice')" class="navbar-item">게시판</a>
+            <a @click="closeAndGo('/notice')" class="navbar-item">공지사항</a>
+            <a @click="closeAndGo('/faq')" class="navbar-item">
+              FAQ
+            </a>
             <a @click="closeAndGo('/history')" class="navbar-item">
               역사
             </a>
@@ -91,12 +91,13 @@ export default {
 
 <style lang="scss" scoped>
 .navbar.is-dark {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #363636;
   backdrop-filter: saturate(180%) blur(15px);
   -webkit-backdrop-filter: saturate(180%) blur(15px);
   .navbar-burger {
     background-color: transparent;
   }
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
 }
 
 .logo {
@@ -140,6 +141,16 @@ export default {
     margin: 0 0 0.1rem 0.5rem;
     color: #4a4a4a;
     fill: currentColor;
+  }
+}
+
+.button.is-primary {
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3);
   }
 }
 </style>

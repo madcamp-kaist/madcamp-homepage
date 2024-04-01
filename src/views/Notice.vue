@@ -1,11 +1,11 @@
 <template>
   <div class="notice">
-    <section class="hero is-light">
+    <section class="hero is-dark is-medium">
       <div class="hero-body">
         <div class="container">
           <div class="columns">
             <h1 class="title column is-offset-3">
-              게시판
+              공지사항
             </h1>
           </div>
         </div>
@@ -20,7 +20,7 @@ import NoticeTable from '@/components/NoticeTable.vue'
 
 export default {
   metaInfo: {
-    title: '게시판 | 몰입캠프'
+    title: '공지사항 | 몰입캠프'
   },
   data () {
     return {
@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .notice {
-  margin-top: 52px;
+  //margin-top: 52px;
   min-height: 80vh;
 }
 </style>
