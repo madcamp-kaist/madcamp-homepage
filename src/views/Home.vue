@@ -190,48 +190,67 @@
     <section>
       <div class="container">
         <div class="content">
-          <div class="columns">
-            <h2 class="column is-offset-1 is-2">강사진</h2>
-            <div class="column">
-              <div class="person columns">
-                <div class="column is-narrow portrait">
-                  <img src="../assets/lecturer-chang.jpg" alt="장병구 위원장 사진">
+          <div class="column">
+            <div class="columns">
+            <h2 class="column is-offset-1 is-2">운영진</h2>
+            <div class="column is-8 description">
+            <table class="table career">
+                      <tbody>
+                        <tr><td>2023년도 여름학기부터는 이전에 몰입캠프에 참여했던 카이스트 학생들이 운영의 주체가 되어 주도적으로 몰입캠프를 기획하고 운영하고 있습니다. </td></tr>
+                      </tbody>
+                    </table>
+                  <br><br>
                 </div>
-                <div class="column is-8 description">
-                  <h4>장병규</h4>
-                  <h6 class="sub">크래프톤 이사회 의장</h6>
-                  <table class="table career">
-                    <tbody>
-                      <tr><td>4차산업혁명위원회 위원장 (2017-2019)</td></tr>
-                      <tr><td>본엔젤스 공동창업 (2008-2017)</td></tr>
-                      <tr><td>블루홀 공동창업 (2007-2018), 크래프톤 이사회 의장 (2018-)</td></tr>
-                      <tr><td>첫눈 창업 (2005), NHN에 첫눈 매각 (2006)</td></tr>
-                      <tr><td>네오위즈 공동창업 (1996-2005)</td></tr>
-                      <tr><td>KAIST 전산학과 (입학 1991, 박사 수료 1999)</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <div class="person columns">
-                <div class="column is-narrow portrait">
-                  <img src="../assets/lecturer-ryu.jpg" alt="류석영 교수 사진">
-                </div>
-                <div class="column is-8 description">
-                  <h4>류석영</h4>
-                  <h6 class="sub">KAIST 전산학부 교수</h6>
-                  <table class="table career">
-                    <tbody>
-                      <tr><td>KAIST 전산학부 학부장 (2021-)</td></tr>
-                      <tr><td>KAIST 포용성 위원회 위원장 (2017-)</td></tr>
-                      <tr><td>Sun Microsystems 연구원 (2005-2009)</td></tr>
-                      <tr><td>Harvard University 연구원 (2001-2005)</td></tr>
-                      <tr><td>KAIST 전산학과 (입학 1991, 박사 2001)</td></tr>
-                    </tbody>
-                  </table>
+            </div>
+            <div class="columns">
+              <h2 class="column is-offset-1 is-2">강사진</h2>
+              <div class="column">
+                <div class="person columns">
+                  <div class="column is-narrow portrait">
+                    <img src="../assets/lecturer-ryu.jpg" alt="류석영 교수 사진">
+                  </div>
+                  <div class="column is-8 description">
+                    <h4>류석영</h4>
+                    <h6 class="sub">KAIST 전산학부 교수</h6>
+                    <table class="table career">
+                      <tbody>
+                        <tr><td>KAIST 전산학부 학부장 (2021-)</td></tr>
+                        <tr><td>KAIST 포용성 위원회 위원장 (2017-)</td></tr>
+                        <tr><td>Sun Microsystems 연구원 (2005-2009)</td></tr>
+                        <tr><td>Harvard University 연구원 (2001-2005)</td></tr>
+                        <tr><td>KAIST 전산학과 (입학 1991, 박사 2001)</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+            <div class="columns">
+            <h2 class="column is-offset-1 is-2">후원자</h2>
+              <div class="column">
+                <div class="person columns">
+                  <div class="column is-narrow portrait">
+                    <img src="../assets/lecturer-chang.jpg" alt="장병구 위원장 사진">
+                  </div>
+                  <div class="column is-8 description">
+                    <h4>장병규</h4>
+                    <h6 class="sub">크래프톤 이사회 의장</h6>
+                    <table class="table career">
+                      <tbody>
+                        <tr><td>4차산업혁명위원회 위원장 (2017-2019)</td></tr>
+                        <tr><td>본엔젤스 공동창업 (2008-2017)</td></tr>
+                        <tr><td>블루홀 공동창업 (2007-2018), 크래프톤 이사회 의장 (2018-)</td></tr>
+                        <tr><td>첫눈 창업 (2005), NHN에 첫눈 매각 (2006)</td></tr>
+                        <tr><td>네오위즈 공동창업 (1996-2005)</td></tr>
+                        <tr><td>KAIST 전산학과 (입학 1991, 박사 수료 1999)</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+          
 <!--
           <div class="columns">
             <h2 class="column is-offset-1 is-2">조교</h2>
@@ -259,7 +278,7 @@
               </div>
             </div>
           </div>
-          <div class="columns">
+          <!-- <div class="columns">
             <h2 class="column is-offset-1 is-2">후원사</h2>
             <div class="column">
               <div class="person columns">
@@ -271,8 +290,8 @@
 	  	  <h6 class="sub">"커리어 성장관리 솔루션"</h6>
                 </div>
               </div>
-            </div>
-          </div>
+            </div>  //후원사 내용 삭제(2024S)
+          </div> -->
         </div>
       </div>
     </section>
