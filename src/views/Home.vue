@@ -31,7 +31,7 @@
 <section class="container video-container prologue">
 	<div class="video">
       <div class="video-wrap">
-        <img src="@/assets/intro-main.png" alt="메인 사진">
+        <img src="@/assets/intro-main.jpg" alt="메인 사진">
         <span class="label">함께 몰입하는 즐거움, 몰입캠프</span>
       </div>
   </div>
@@ -196,7 +196,7 @@
             <div class="column is-8 description">
             <table class="table career">
                       <tbody>
-                        <tr><td>2023년도 여름학기부터는 이전에 몰입캠프에 참여했던 카이스트 학생들이 운영의 주체가 되어 주도적으로 몰입캠프를 기획하고 운영하고 있습니다. </td></tr>
+                        <tr><td>2023년 여름학기부터는 이전 몰입캠프에 참가했던 카이스트 학생들이 운영의 주체가 되어, 캠프를 기획하고 주도적으로 운영하고 있습니다. </td></tr>
                       </tbody>
                     </table>
                   <br><br>
@@ -219,7 +219,7 @@
                         <tr><td>Sun Microsystems 연구원 (2005-2009)</td></tr>
                         <tr><td>Harvard University 연구원 (2001-2005)</td></tr>
                         <tr><td>KAIST 전산학과 (입학 1991, 박사 2001)</td></tr>
-                      </tbody>s
+                      </tbody>
                     </table>
                   </div>
                 </div>

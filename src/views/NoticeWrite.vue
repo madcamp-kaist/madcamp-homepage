@@ -21,7 +21,7 @@
 
 <script>
 import debounce from 'lodash/debounce'
-import marked from 'marked'
+import { marked } from 'marked'
 import { server } from '@/server.js'
 
 export default {
