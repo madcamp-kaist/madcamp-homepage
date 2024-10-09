@@ -37,7 +37,7 @@ $background: white;
   }
 }
 
-@import '~bulma/bulma.sass';
+@import 'bulma/sass';
 
 * {
   word-break: keep-all;

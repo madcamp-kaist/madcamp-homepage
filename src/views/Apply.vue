@@ -21,7 +21,7 @@
             <tbody>
               <tr>
                 <th class="subject">모집인원</th>
-                <td class="description" colspan="2">80명 이내(4개 분반)</td>
+                <td class="description" colspan="2">80명 이내 (4개 분반)</td>
               </tr>
               <tr>
                 <th class="subject">참가대상</th>
@@ -31,7 +31,7 @@
                 <th
                   class="subject">모집기간</th>
                 <td class="description" colspan="2">
-                  <time datetime="2024-04-07">4월 7일</time>-<time datetime="2024-04-28">4월 28일(자정까지)</time><br>
+                  <time datetime="2024-10-13">2024년 10월 13일</time> - <time datetime="2024-11-3">11월 3일 (자정까지)</time><br>
                 </td>
               </tr>
 <!--
@@ -42,7 +42,7 @@
 -->
               <tr>
                 <th class="subject">강의계획서</th>
-                <td colspan="2"><a class="link" href="https://bit.ly/43GyWLv">https://bit.ly/43GyWLv</a></td>
+                <td colspan="2"><a class="link" href="https://bit.ly/47Ojqzr">https://bit.ly/47Ojqzr</a></td>
               </tr>
               <tr>
                 <th class="subject">선발방법</th>
@@ -57,7 +57,7 @@
                 <th
                   class="subject">결과발표</th>
                 <td colspan="2">
-                  <time datetime="2024-05-13">5월 13일</time><br>
+                  <time datetime="2024-11-11">2024년 11월 11일</time><br>
                 </td>
               </tr>
 
@@ -71,7 +71,7 @@
                   캠프기간
                 </th>
                 <td class="description" colspan="2">
-                  <time datetime="2024-06-27">6월 27일</time>-<time datetime="2024-07-28">7월 28일</time>
+                  <time datetime="2024-12-26">2024년 12월 26일</time> - <time datetime="2025-01-26">2025년 1월 26일</time>
                 </td>
               </tr>
               <tr>
@@ -118,8 +118,8 @@
               </tr>
               <tr>
                 <th class="subject">참가생 준비사항</th>
-                <td colspan="2">노트북은 개인 지참, OS종류(윈도우,맥)는 관계 없음<br>최소사양: 윈도우10 64bit, MacOS10.14, RAM 8G, CPU i5 이상 / 권장사양: RAM 16G 이상</td>
-              <tr></tr>
+                <td colspan="2">노트북은 개인 지참, OS 종류(윈도우,맥)는 관계 없음<br>최소사양: 윈도우10 64bit, MacOS 10.14, RAM 8G, CPU i5 이상 /<br> 권장사양: RAM 16G 이상</td>
+              </tr>
 
             </tbody>
           </table>
@@ -131,14 +131,14 @@
         <h2 class="column title is-3 has-text-right-tablet">지원서 작성<br class="is-hidden-mobile"> 가이드</h2>
         <div class="column is-6">
           <p>지원서 항목은 인적 사항, 대학 전공, 대학 생활, 기타의 4개 섹션으로 구성됩니다.</p>
-          <p>몰입캠프를 진행해 오면서, <u><b>캠프의 성공 요인은 학생들의 '공통성'과 '다양성'의 균형</b></u>을 적절히 맞추는 것에 있었습니다. 이런 구성원이 모여 서로 협력하며 빠르게 학습하고 성장할 수 있습니다.</p>
-          <p>'공통성'은 태도, 의지, 열정, 협업 등이고, '다양성'은 학번, 성별, 활동 경험, 개발 실력, 자라온 배경 등 가급적 다양하게 구성되기를 바랍니다. 다만, 다수는 2~3학년의 전산학과 기본과목을 이수한 학생들로 구성되기를 희망합니다.</p>
-          <p>입력된 자료를 기준으로 서류심사가 진행되오니, 다소 항목이 많은 편이지만, 지원자분들을 잘 파악할 수 있도록 성실한 작성을 부탁드립니다!</p>
-          <p>몰입캠프 참가자로 선정된 후 취소 시에는, 추후 재지원 시 선발 순위가 많이 낮아집니다.</p>
-          <p><u><b>Internet Explorer에서 강의계획서 및  지원서가 열리지 않을 경우 Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
-          <p>지원서 링크: https://forms.gle/darURGve4Eg46WB39</p>
+          <p>몰입캠프의 성공 요인은 캠프 구성원들의 <u><b>'공통성'과 '다양성'</b></u>을 균형 있게 유지하는 데 있었습니다. 다양한 구성원이 모여 협력할 때 빠르게 학습하고 성장할 수 있기 때문입니다.</p>
+          <p>'공통성'은 태도, 의지, 열정, 협업 능력 등의 요소를 의미하며, '다양성'은 학번, 성별, 활동 경험, 개발 역량, 자라온 환경 등과 관련이 있습니다. 구성원들의 다양한 배경을 중요하게 여기지만, 기본적으로 2~3학년 수준의 전산학과 기본 과목을 이수한 학생들이 다수 구성되기를 희망합니다.</p>
+          <p>입력하신 정보를 기준으로 서류 심사가 진행되므로, 항목이 많더라도 지원자분을 잘 파악할 수 있도록 성실하게 작성해 주시기 바랍니다.</p>
+          <p>또한, 몰입캠프 참가자로 선정된 후 취소할 경우, 추후 재지원 시 선발 우선순위가 크게 낮아질 수 있습니다.</p>
+          <p><u><b>Internet Explorer에서 강의 계획서 및 지원서가 열리지 않을 수 있으므로, Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
+          <p>지원서 링크: https://forms.gle/K8HL5jvFDV3oYRFv8</p>
           <br>
-          <a href="https://forms.gle/darURGve4Eg46WB39" target="_blank" class="button is-primary is-large">지원서 작성</a>
+          <a href="https://forms.gle/K8HL5jvFDV3oYRFv8" target="_blank" class="button is-primary is-large">지원서 작성</a>
         </div>
       </div>
     </section>
