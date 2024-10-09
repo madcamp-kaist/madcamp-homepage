@@ -170,6 +170,7 @@ export default {
   }
   .title {
     padding: 1.25rem 1.5rem;
+    color: black;
   }
   .table {
     margin-left: -0.75rem;

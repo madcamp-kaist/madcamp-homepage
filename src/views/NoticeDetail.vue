@@ -73,6 +73,10 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  background-color: #ffffff;
+}
+
 .notice-table {
   margin-top: 8rem;
   @media screen and (max-width: 1087px) {
@@ -103,6 +107,9 @@ export default {
         background-color: rgba(245,218,85,.35);
         color: black;
       }
+    }
+    strong {
+      color: black;
     }
   }
 }
