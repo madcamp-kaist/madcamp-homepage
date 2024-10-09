@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import marked from 'marked'
+import { marked } from 'marked'
 import NoticeTable from '@/components/NoticeTable.vue'
 
 import { server } from '@/server.js'

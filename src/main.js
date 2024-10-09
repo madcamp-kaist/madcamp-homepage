@@ -1,13 +1,12 @@
-import 'whatwg-fetch'
-import Vue from 'vue'
-import App from './App.vue'
-import Meta from 'vue-meta'
-import router from './router'
+import 'whatwg-fetch';
+import { createApp } from 'vue';
+import App from './App.vue';
+import { createMetaManager } from 'vue-meta';
+import router from './router';
 
-Vue.use(Meta)
-Vue.config.productionTip = false
+const app = createApp(App);
 
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+const metaManager = createMetaManager();
+app.use(metaManager);
+app.use(router);
+app.mount('#app');

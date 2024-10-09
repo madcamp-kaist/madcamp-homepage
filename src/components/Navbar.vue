@@ -37,7 +37,7 @@
             </a>
             <hr class="navbar-divider" style="background-color: whitesmoke">
             <a
-              href="https://bit.ly/43GyWLv"
+              href="https://bit.ly/47Ojqzr"
               class="navbar-item syllabus"
               target="_blank">
               강의계획서
