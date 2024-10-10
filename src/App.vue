@@ -22,7 +22,6 @@ export default {
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400");
 
-// 색상 변수 정의
 $primary: #fae047;
 $primary-invert: black;
 $link: black;
@@ -45,6 +44,12 @@ body {
   &:hover {
     background-color: rgba(245, 218, 85, 0.35);
     color: $primary-invert;
+  }
+}
+
+.content {
+  @media screen and (min-width: 1087px) {
+    margin-top: 4rem;
   }
 }
 
