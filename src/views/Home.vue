@@ -10,7 +10,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <div class="container home">
         <div class="content">
           <div class="columns">
             <h2 class="column is-offset-1 is-2">몰입캠프는</h2>
@@ -30,7 +30,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <div class="container home">
         <div class="content">
           <div class="columns">
             <h2 class="column is-offset-1 is-2">개요</h2>
@@ -68,7 +68,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <div class="container home">
         <div class="content">
           <div class="columns">
             <h2 class="column is-offset-1 is-2">목적</h2>
@@ -92,7 +92,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <div class="container home">
         <div class="content">
           <div class="columns">
             <h2 class="column is-offset-1 is-2">왜 해야 하는가</h2>
@@ -263,7 +263,7 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container home">
         <div class="content">
           <div class="column">
             <div class="columns">
@@ -432,6 +432,28 @@ export default {
 <style lang="scss" scoped>
 .home {
   margin-top: 52px;
+  .container {
+    margin-bottom: 6rem;
+    @media screen and (max-width: 768px) {
+      padding: 0 1.5rem;
+    }
+    .is-text {
+      max-width: 45rem;
+      line-height: 1.6;
+      h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 4rem 0 0.75rem;
+      }
+      h4 {
+        font-weight: bold;
+        margin-bottom: 0.25rem;
+      }
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
 }
 
 

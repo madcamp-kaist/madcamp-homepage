@@ -10,7 +10,7 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container history">
         <div class="content">
           <div class="columns">
             <div class="column is-offset-3 is-6">
@@ -48,7 +48,7 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container history">
         <div class="content">
           <div class="columns">
             <h2 class="column is-offset-1 is-2">연혁</h2>
@@ -148,7 +148,7 @@
       </div>
     </section>
     <section class="history-images">
-      <div class="container">
+      <div class="container history">
         <div class="columns">
           <div class="column is-offset-3 is-6">
             <div class="image-header">
@@ -185,8 +185,34 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.history.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  @media screen and (max-width: 768px) {
+    padding: 0 1.5rem;
+  }
+  .is-text {
+    max-width: 45rem;
+    line-height: 1.6;
+    h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 4rem 0 0.75rem;
+    }
+    h4 {
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+}
 .history-table {
-  margin-left: -0.75rem;
+  //margin-left: -0.75rem;
+  @media screen and (max-width: 768px) {
+    padding: 0 1.5rem;
+  }
 }
 .history-images {
   margin: 2rem 0 4rem;
