@@ -213,6 +213,9 @@ export default {
   @media screen and (max-width: 768px) {
     padding: 0 1.5rem;
   }
+  td {
+  white-space: nowrap;
+  }
 }
 .history-images {
   margin: 2rem 0 4rem;

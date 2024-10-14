@@ -166,7 +166,7 @@ export default {
 .apply-info-table {
   margin: 4rem auto;
   @media screen and (max-width: 768px) {
-    padding: 1.5rem 0.75rem;
+    padding: 0 2rem;
   }
   .title {
     padding: 1.25rem 1.5rem;
