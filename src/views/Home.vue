@@ -269,8 +269,7 @@
             <div class="columns">
               <h2 class="column is-offset-1 is-2">운영진</h2>
               <div class="column is-8 description">
-                <table class="table career">
-                  <tbody>
+                <tbody>
                     <tr>
                       <td>
                         2023년 여름학기부터는 이전 몰입캠프에 참가했던 카이스트
@@ -279,7 +278,29 @@
                       </td>
                     </tr>
                   </tbody>
-                </table>
+                <br /><br />
+                <div class="person columns">
+                  <div class="column is-2 description">
+                    <h4>조성원</h4>
+                    <h6 class="sub">총괄</h6>
+                  </div>
+                  <div class="column is-2 description">
+                    <h4>정민지</h4>
+                    <h6 class="sub">기술지원부</h6>
+                  </div>
+                  <div class="column is-2 description">
+                    <h4>이승민</h4>
+                    <h6 class="sub">대외협력부</h6>
+                  </div>
+                  <div class="column is-2 description">
+                    <h4>허지민</h4>
+                    <h6 class="sub">재정관리부</h6>
+                  </div>
+                  <div class="column is-2 description">
+                    <h4>최현우</h4>
+                    <h6 class="sub">참가관리부</h6>
+                  </div>
+                </div>
                 <br /><br />
               </div>
             </div>
@@ -319,6 +340,8 @@
                 </div>
               </div>
             </div>
+
+            <!--
             <div class="columns">
               <h2 class="column is-offset-1 is-2">후원자</h2>
               <div class="column">
@@ -359,8 +382,8 @@
                     </table>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> //장병규 의장님 프로필 삭제(2025S)
+            </div> --> 
           </div>
 
           <!--
@@ -405,7 +428,7 @@
 	  	  <h6 class="sub">"커리어 성장관리 솔루션"</h6>
                 </div>
               </div>
-            </div>  //후원사 내용 삭제(2024S)
+            </div>  //후원사 내용 삭제(2025S)
           </div> -->
         </div>
       </div>

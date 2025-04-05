@@ -25,13 +25,13 @@
               </tr>
               <tr>
                 <th class="subject">참가대상</th>
-                <td class="description" colspan="2">KAIST와 MOU를 맺은 국내 대학 학부생, 2000년생까지 지원 가능</td>
+                <td class="description" colspan="2">KAIST와 MOU를 맺은 국내 대학 학부생, 2001년생까지 지원 가능</td>
               </tr>
               <tr>
                 <th
                   class="subject">모집기간</th>
                 <td class="description" colspan="2">
-                  <time datetime="2024-10-13">2024년 10월 13일</time> - <time datetime="2024-11-3">11월 3일 (자정까지)</time><br>
+                  <time datetime="2024-04-09">2025년 4월 9일</time> - <time datetime="2024-05-02">5월 2일 (자정까지)</time><br>
                 </td>
               </tr>
 <!--
@@ -42,7 +42,7 @@
 -->
               <tr>
                 <th class="subject">강의계획서</th>
-                <td colspan="2"><a class="link" href="https://bit.ly/47Ojqzr">https://bit.ly/47Ojqzr</a></td>
+                <td colspan="2"><a class="link" href="https://bit.ly/4i4mr27">https://bit.ly/4i4mr27</a></td>
               </tr>
               <tr>
                 <th class="subject">선발방법</th>
@@ -57,7 +57,7 @@
                 <th
                   class="subject">결과발표</th>
                 <td colspan="2">
-                  <time datetime="2024-11-11">2024년 11월 11일</time><br>
+                  <time datetime="2024-05-16">2024년 5월 16일</time><br>
                 </td>
               </tr>
 
@@ -71,7 +71,7 @@
                   캠프기간
                 </th>
                 <td class="description" colspan="2">
-                  <time datetime="2024-12-26">2024년 12월 26일</time> - <time datetime="2025-01-26">2025년 1월 26일</time>
+                  <time datetime="2025-07-03">2025년 7월 3일</time> - <time datetime="2025-08-03">2025년 8월 3일</time>
                 </td>
               </tr>
               <tr>
@@ -136,9 +136,9 @@
           <p>입력하신 정보를 기준으로 서류 심사가 진행되므로, 항목이 많더라도 지원자분을 잘 파악할 수 있도록 성실하게 작성해 주시기 바랍니다.</p>
           <p>또한, 몰입캠프 참가자로 선정된 후 취소할 경우, 추후 재지원 시 선발 우선순위가 크게 낮아질 수 있습니다.</p>
           <p><u><b>Internet Explorer에서 강의 계획서 및 지원서가 열리지 않을 수 있으므로, Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
-          <p>지원서 링크: https://forms.gle/K8HL5jvFDV3oYRFv8</p>
+          <p>지원서 링크: https://forms.gle/4gRDzp7ufgn611Jy7</p>
           <br>
-          <a href="https://forms.gle/K8HL5jvFDV3oYRFv8" target="_blank" class="button is-primary is-large">지원서 작성</a>
+          <a href="https://forms.gle/4gRDzp7ufgn611Jy7" target="_blank" class="button is-primary is-large">지원서 작성</a>
         </div>
       </div>
     </section>
