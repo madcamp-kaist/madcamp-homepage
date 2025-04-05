@@ -57,7 +57,7 @@
                 <th
                   class="subject">결과발표</th>
                 <td colspan="2">
-                  <time datetime="2024-05-16">2024년 5월 16일</time><br>
+                  <time datetime="2024-05-16">2025년 5월 16일</time><br>
                 </td>
               </tr>
 
