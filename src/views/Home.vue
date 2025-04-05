@@ -319,6 +319,8 @@
                 </div>
               </div>
             </div>
+
+            <!--
             <div class="columns">
               <h2 class="column is-offset-1 is-2">후원자</h2>
               <div class="column">
@@ -359,8 +361,8 @@
                     </table>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> //장병규 의장님 프로필 삭제(2025S)
+            </div> --> 
           </div>
 
           <!--
