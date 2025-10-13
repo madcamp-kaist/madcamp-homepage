@@ -94,9 +94,15 @@ export default {
           if (anchor) {
             this.scrollToAnchor(anchor)
           }
+          else {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }
         })
       } else if (anchor) {
         this.scrollToAnchor(anchor)
+      }
+      else {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
       }
     },
     scrollToAnchor(anchor) {
@@ -138,8 +144,8 @@ export default {
     color: black;
   }
   img {
-    height: 40px;
-    max-height: 38px;
+    height: 30px;
+    max-height: 35px;
   }
 }
 

@@ -3,7 +3,12 @@
     <section class="prologue">
       <div class="prologue-content">
         <h1 class="prologue-title">
-          함께 몰입하는 즐거움,<br>몰입캠프
+          <span class="logo-container logo-animation">
+            <img src="@/assets/logo_only.svg" alt="몰입캠프 로고" />
+          </span>
+          <span class="title-text-content">
+            함께 몰입하는 즐거움,<br>몰입캠프
+          </span>
         </h1>
         <p class="prologue-subtitle">
           학생들이 자율적으로 집중개발을 경험하는 프로그래밍 캠프
@@ -481,6 +486,28 @@ export default {
   }
 }
 
+@keyframes logoSequence {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(45deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+@keyframes titleSequence {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .prologue {
   background-color: white;
   color: #121212;
@@ -496,9 +523,31 @@ export default {
   max-width: 1200px;
 }
 .prologue-title {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-container {
+  display: inline-block;
+}
+.logo-animation {
+  width: 10rem;
+  height: 10rem;
+  transform-origin: center;
+  position: absolute;
+  transform: translate(0, 0%);
+  opacity: 0;
+  transform: translate(0, 0%) rotate(45deg);
+  animation: logoSequence 1.8s ease-in-out forwards;
+  animation-fill-mode: forwards;
+}
+.title-text-content {
+  opacity: 0;
+  animation: titleSequence 1s ease-in-out 1.8s forwards;
+  animation-fill-mode: forwards;
 }
 .prologue-subtitle {
   font-size: 1.5rem;
