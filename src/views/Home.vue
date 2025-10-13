@@ -571,12 +571,12 @@ export default {
   margin-right: 1rem;
 }
 .button-primary:hover {
-  background-color: #e0e0e0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #121212;
 }
 .button-secondary {
   background-color: #ffd000;
   color: #121212;
-  // border: 2px solid #ffd000;
 }
 .button-secondary:hover {
   background-color: rgba(255, 255, 0, 0.2);
