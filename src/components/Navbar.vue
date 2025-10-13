@@ -1,14 +1,21 @@
 <template>
 <nav
-  class="navbar is-dark is-fixed-top"
+  class="navbar is-blur
+        fixed left-1/2 top-6 -translate-x-1/2
+        flex items-center justify-between
+        w-[90%] max-w-3xl
+        bg-white/60 backdrop-blur-xl
+        rounded-2xl shadow-lg px-6 py-3
+        border border-white/30
+        z-50"
   role="navigation"
   aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
       <a @click="closeAndGo('/')" class="navbar-item logo">
-        <img src="@/assets/logo_white.svg" alt="몰입캠프 로고">
+        <img src="@/assets/logo_black.svg" alt="몰입캠프 로고">   <!--로고 블랙으로 바꿨음-->
       </a>
-
+      <!-- 모바일 버전일 때 -->
       <button
         @click="isMobileMenuVisible = !isMobileMenuVisible"
         :class="{ 'is-active': isMobileMenuVisible }"
@@ -90,10 +97,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.navbar.is-dark {
-  background-color: #363636;
-  backdrop-filter: saturate(180%) blur(15px);
-  -webkit-backdrop-filter: saturate(180%) blur(15px);
+.navbar.is-blur {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+  top: 1.5rem;
+
+  border-radius: 5rem !important;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   .navbar-burger {
     background-color: transparent;
   }
@@ -117,7 +134,7 @@ export default {
   background-color: #363636;
   border: none;
   span {
-    color: white;
+    color: #121212;
   }
 }
 

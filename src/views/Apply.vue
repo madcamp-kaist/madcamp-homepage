@@ -1,6 +1,6 @@
 <template>
   <div class="apply">
-    <section class="hero is-light">
+    <section class="hero is-light is-medium">
       <div class="hero-body">
         <div class="container">
           <div class="columns">
@@ -160,9 +160,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.apply {
-  margin-top: 52px;
-}
+// .apply {
+//   margin-top: 52px;
+// }
 .apply-info-table {
   margin: 4rem auto;
   @media screen and (max-width: 768px) {
