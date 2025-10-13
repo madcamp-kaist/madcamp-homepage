@@ -15,7 +15,6 @@
       <a @click="closeAndGo('/')" class="navbar-item logo">
         <img src="@/assets/logo_black.svg" alt="몰입캠프 로고">   <!--로고 블랙으로 바꿨음-->
       </a>
-      <!-- 모바일 버전일 때 -->
       <button
         @click="isMobileMenuVisible = !isMobileMenuVisible"
         :class="{ 'is-active': isMobileMenuVisible }"
@@ -35,11 +34,11 @@
       <div class="navbar-start"></div>
       <div class="navbar-end">
         <div class="navbar-item has-dropdown is-hoverable">
-          <div @click="closeAndGo('/')" class="navbar-link">
+          <div @click="closeAndGo('/', 'intro')" class="navbar-link">
             소개
           </div>
           <div class="navbar-dropdown is-right is-boxed">
-            <a @click="closeAndGo('/')" class="navbar-item">
+            <a @click="closeAndGo('/', 'intro')" class="navbar-item">
               소개
             </a>
             <hr class="navbar-divider" style="background-color: whitesmoke">
@@ -88,9 +87,23 @@ export default {
     }
   },
   methods: {
-    closeAndGo (destination) {
+    closeAndGo (destination, anchor) {
       this.isMobileMenuVisible = false
-      this.$router.push(destination)
+      if (this.$route.path !== destination) {
+        this.$router.push(destination).then(() => {
+          if (anchor) {
+            this.scrollToAnchor(anchor)
+          }
+        })
+      } else if (anchor) {
+        this.scrollToAnchor(anchor)
+      }
+    },
+    scrollToAnchor(anchor) {
+      const el = document.getElementById(anchor)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
     }
   }
 }
@@ -106,7 +119,7 @@ export default {
   top: 1.5rem;
 
   border-radius: 5rem !important;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);

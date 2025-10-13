@@ -3,20 +3,19 @@
     <section class="prologue">
       <div class="prologue-content">
         <h1 class="prologue-title">
-          함께 몰입하는 즐거움, 몰입캠프
+          함께 몰입하는 즐거움,<br>몰입캠프
         </h1>
         <p class="prologue-subtitle">
           학생들이 자율적으로 집중개발을 경험하는 프로그래밍 캠프
         </p> 
         <div class="prologue-buttons">
-          <button class="button button-primary">알아보기</button>
-          <button class="button button-secondary">신청하기</button>
+          <button @click="closeAndGo('/', 'intro')" class="button button-primary">알아보기</button>
+          <button @click="closeAndGo('/apply')" class="button button-secondary">지원하기</button>
         </div>
       </div>
     </section>
-
     <section>
-      <div class="container home">
+      <div id="intro" class="container home">
         <div class="content">
           <div class="columns">
             <h2 class="column is-offset-1 is-2">몰입캠프는</h2>
@@ -382,12 +381,32 @@ export default {
       },
     ],
   },
+  methods: {
+    closeAndGo (destination, anchor) {
+      this.isMobileMenuVisible = false
+      if (this.$route.path !== destination) {
+        this.$router.push(destination).then(() => {
+          if (anchor) {
+            this.scrollToAnchor(anchor)
+          }
+        })
+      } else if (anchor) {
+        this.scrollToAnchor(anchor)
+      }
+    },
+    scrollToAnchor(anchor) {
+      const el = document.getElementById(anchor)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }  
 };
 </script>
 
 <style lang="scss" scoped>
 .home {
-  margin-top: 52px;
+  // margin-top: 52px; // navbar 바꾸면서 필요없어짐
   .container {
     margin-bottom: 6rem;
     @media screen and (max-width: 768px) {
@@ -474,10 +493,10 @@ export default {
 }
 
 .prologue-content {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 .prologue-title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -511,7 +530,7 @@ export default {
   // border: 2px solid #ffd000;
 }
 .button-secondary:hover {
-  background-color: rgba(255, 255, 255, 0.1);  //이거 색깔 바꾸고 싶음
+  background-color: rgba(255, 255, 0, 0.2);
 }
 
 .video-wrap {
