@@ -279,15 +279,13 @@
             <div class="columns">
               <h2 class="column is-offset-1 is-2">운영진</h2>
               <div class="column is-8 description">
-                <tbody>
-                    <tr>
-                      <td>
-                        2023년 여름학기부터는 이전 몰입캠프에 참가했던 카이스트
-                        학생들이 운영의 주체가 되어, 캠프를 기획하고 주도적으로
-                        운영하고 있습니다.
-                      </td>
-                    </tr>
-                  </tbody>
+                  <div>
+                    <p>
+                      2023년 여름학기부터는 이전 몰입캠프에 참가했던 카이스트
+                      학생들이 운영의 주체가 되어, 캠프를 기획하고 <br>주도적으로
+                      운영하고 있습니다.
+                    </p>
+                  </div>
                 <br /><br />
                 <div class="person columns">
                   <div class="column is-2 description">
