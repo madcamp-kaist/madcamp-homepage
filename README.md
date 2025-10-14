@@ -35,3 +35,6 @@ content는 markdown 문법 지원함
 
 ### src/views/History.vue
 이전 기수 정보 추가
+
+### src/views/Home.vue
+운영진 정보 현재 기수로 수정
