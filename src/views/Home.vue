@@ -1,16 +1,26 @@
 <template>
   <div class="home">
-    <section class="container video-container prologue">
-      <div class="video">
-        <div class="video-wrap">
-          <img src="@/assets/intro-main.jpg" alt="메인 사진" />
-          <span class="label">함께 몰입하는 즐거움, 몰입캠프</span>
+    <section class="prologue">
+      <div class="prologue-content">
+        <h1 class="prologue-title">
+          <span class="logo-container logo-animation">
+            <img src="@/assets/logo_only.svg" alt="몰입캠프 로고" />
+          </span>
+          <span class="title-text-content">
+            함께 몰입하는 즐거움,<br>몰입캠프
+          </span>
+        </h1>
+        <p class="prologue-subtitle">
+          학생들이 자율적으로 집중개발을 경험하는 프로그래밍 캠프
+        </p> 
+        <div class="prologue-buttons">
+          <button @click="closeAndGo('/', 'intro')" class="button button-primary">알아보기</button>
+          <button @click="closeAndGo('/apply')" class="button button-secondary">지원하기</button>
         </div>
       </div>
     </section>
-
     <section>
-      <div class="container home">
+      <div id="intro" class="container home">
         <div class="content">
           <div class="columns">
             <h2 class="column is-offset-1 is-2">몰입캠프는</h2>
@@ -269,15 +279,13 @@
             <div class="columns">
               <h2 class="column is-offset-1 is-2">운영진</h2>
               <div class="column is-8 description">
-                <tbody>
-                    <tr>
-                      <td>
-                        2023년 여름학기부터는 이전 몰입캠프에 참가했던 카이스트
-                        학생들이 운영의 주체가 되어, 캠프를 기획하고 주도적으로
-                        운영하고 있습니다.
-                      </td>
-                    </tr>
-                  </tbody>
+                  <div>
+                    <p>
+                      2023년 여름학기부터는 이전 몰입캠프에 참가했던 카이스트
+                      학생들이 운영의 주체가 되어, 캠프를 기획하고 <br>주도적으로
+                      운영하고 있습니다.
+                    </p>
+                  </div>
                 <br /><br />
                 <div class="person columns">
                   <div class="column is-2 description">
@@ -340,66 +348,7 @@
                 </div>
               </div>
             </div>
-
-            <!--
-            <div class="columns">
-              <h2 class="column is-offset-1 is-2">후원자</h2>
-              <div class="column">
-                <div class="person columns">
-                  <div class="column is-narrow portrait">
-                    <img
-                      src="../assets/lecturer-chang.jpg"
-                      alt="장병구 위원장 사진"
-                    />
-                  </div>
-                  <div class="column is-8 description">
-                    <h4>장병규</h4>
-                    <h6 class="sub">크래프톤 이사회 의장</h6>
-                    <table class="table career">
-                      <tbody>
-                        <tr>
-                          <td>4차산업혁명위원회 위원장 (2017-2019)</td>
-                        </tr>
-                        <tr>
-                          <td>본엔젤스 공동창업 (2008-2017)</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            블루홀 공동창업 (2007-2018), 크래프톤 이사회 의장
-                            (2018-)
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>첫눈 창업 (2005), NHN에 첫눈 매각 (2006)</td>
-                        </tr>
-                        <tr>
-                          <td>네오위즈 공동창업 (1996-2005)</td>
-                        </tr>
-                        <tr>
-                          <td>KAIST 전산학과 (입학 1991, 박사 수료 1999)</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div> //장병규 의장님 프로필 삭제(2025S)
-            </div> --> 
           </div>
-
-          <!--
-          <div class="columns">
-            <h2 class="column is-offset-1 is-2">조교</h2>
-            <div class="column">
-              <div class="person columns">
-                <div class="column is-narrow blank"></div>
-                <div class="column is-8 description">
-                  <h4>홍재민</h4>
-                  <h6 class="sub">조교장</h6>
-                </div>
-              </div>
-            </div>
-          </div>
--->
           <div class="columns">
             <h2 class="column is-offset-1 is-2">문의사항</h2>
             <div class="column">
@@ -416,20 +365,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="columns">
-            <h2 class="column is-offset-1 is-2">후원사</h2>
-            <div class="column">
-              <div class="person columns">
-                <div class="column is-narrow blank"></div>
-                <div class="column is-8 description">
-                  <a href="http://bonangels.net/"><img style="width:200px" src="../assets/logo-bonangels.jpg"></a>
-	  	  <h6 class="sub">"스타트업 초기 투자 전문 벤처캐피털"</h6>
-                  <br><a href="https://startupinternz.com/"><img style="width:200px" src="../assets/logo-startup.jpg"></a>
-	  	  <h6 class="sub">"커리어 성장관리 솔루션"</h6>
-                </div>
-              </div>
-            </div>  //후원사 내용 삭제(2025S)
-          </div> -->
         </div>
       </div>
     </section>
@@ -449,12 +384,32 @@ export default {
       },
     ],
   },
+  methods: {
+    closeAndGo (destination, anchor) {
+      this.isMobileMenuVisible = false
+      if (this.$route.path !== destination) {
+        this.$router.push(destination).then(() => {
+          if (anchor) {
+            this.scrollToAnchor(anchor)
+          }
+        })
+      } else if (anchor) {
+        this.scrollToAnchor(anchor)
+      }
+    },
+    scrollToAnchor(anchor) {
+      const el = document.getElementById(anchor)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }  
 };
 </script>
 
 <style lang="scss" scoped>
 .home {
-  margin-top: 52px;
+  // margin-top: 52px; // navbar 바꾸면서 필요없어짐
   .container {
     margin-bottom: 6rem;
     @media screen and (max-width: 768px) {
@@ -529,11 +484,101 @@ export default {
   }
 }
 
+@keyframes logoSequence {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(45deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+@keyframes titleSequence {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .prologue {
-  margin-bottom: 50px !important;
-  padding: 50px; // 내용을 여백과 떨어지게 패딩 추가
+  background-color: white;
+  color: #121212;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
 }
 
+.prologue-content {
+  max-width: 1200px;
+}
+.prologue-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-container {
+  display: inline-block;
+}
+.logo-animation {
+  width: 10rem;
+  height: 10rem;
+  transform-origin: center;
+  position: absolute;
+  transform: translate(0, 0%);
+  opacity: 0;
+  transform: translate(0, 0%) rotate(45deg);
+  animation: logoSequence 1.8s ease-in-out forwards;
+  animation-fill-mode: forwards;
+}
+.title-text-content {
+  opacity: 0;
+  animation: titleSequence 1s ease-in-out 1.8s forwards;
+  animation-fill-mode: forwards;
+}
+.prologue-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.prologue-buttons {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.button-primary {
+  background-color: #121212;
+  color: white;
+  margin-right: 1rem;
+}
+.button-primary:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #121212;
+}
+.button-secondary {
+  background-color: #ffd000;
+  color: #121212;
+}
+.button-secondary:hover {
+  background-color: rgba(255, 255, 0, 0.2);
+}
 
 .video-wrap {
   position: relative;
