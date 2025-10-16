@@ -25,7 +25,7 @@
               </tr>
               <tr>
                 <th class="subject">참가대상</th>
-                <td class="description" colspan="2">KAIST와 MOU를 맺은 국내 대학 학부생, 2001년생까지 지원 가능</td>
+                <td class="description" colspan="2">KAIST와 MOU를 맺은 국내 대학 학부생, 2002년생까지 지원 가능</td>
               </tr>
               <tr>
                 <th
@@ -71,7 +71,7 @@
                   캠프기간
                 </th>
                 <td class="description" colspan="2">
-                  <time datetime="2026-01-08">2026년 1월 8일</time> - <time datetime="2026-02-08">2026년 1월 8일</time>
+                  <time datetime="2026-01-08">2026년 1월 8일</time> - <time datetime="2026-02-08">2026년 2월 8일</time>
                 </td>
               </tr>
               <tr>
@@ -136,7 +136,6 @@
           <p>입력하신 정보를 기준으로 서류 심사가 진행되므로, 항목이 많더라도 지원자분을 잘 파악할 수 있도록 성실하게 작성해 주시기 바랍니다.</p>
           <p>또한, 몰입캠프 참가자로 선정된 후 취소할 경우, 추후 재지원 시 선발 우선순위가 크게 낮아질 수 있습니다.</p>
           <p><u><b>Internet Explorer에서 강의 계획서 및 지원서가 열리지 않을 수 있으므로, Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
-          <p>지원서 링크: https://forms.gle/jixR61fa37hFcKxk8</p>
           <br>
           <a href="https://forms.gle/jixR61fa37hFcKxk8" target="_blank" class="button is-primary is-large">지원서 작성</a>
         </div>
