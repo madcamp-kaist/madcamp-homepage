@@ -289,23 +289,23 @@
                 <br /><br />
                 <div class="person columns">
                   <div class="column is-2 description">
-                    <h4>조성원</h4>
+                    <h4>구자윤</h4>
                     <h6 class="sub">총괄</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>정민지</h4>
+                    <h4>박성준</h4>
                     <h6 class="sub">기술지원부</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>이승민</h4>
+                    <h4>이서진</h4>
                     <h6 class="sub">대외협력부</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>허지민</h4>
+                    <h4>김병주</h4>
                     <h6 class="sub">재정관리부</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>최현우</h4>
+                    <h4>석인호</h4>
                     <h6 class="sub">참가관리부</h6>
                   </div>
                 </div>

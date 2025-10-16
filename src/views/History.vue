@@ -56,6 +56,11 @@
               <table class="table">
                 <tbody>
                   <tr>
+                    <td rowspan="1">2025</td>
+                    <td>여름</td>
+                    <td>참가생 80명, 몰입캠프 19기</td>
+                  </tr>
+                  <tr>
                     <td rowspan="2">2024</td>
                     <td>겨울</td>
                     <td>참가생 78명, 몰입캠프 18기</td>
