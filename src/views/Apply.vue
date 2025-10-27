@@ -25,7 +25,7 @@
               </tr>
               <tr>
                 <th class="subject">참가대상</th>
-                <td class="description" colspan="2">KAIST와 MOU를 맺은 국내 대학 학부생, 2002년생까지 지원 가능</td>
+                <td class="description" colspan="2">KAIST와 MOU를 맺은 국내 대학 학부생, 2001년생까지 지원 가능</td>
               </tr>
               <tr>
                 <th
