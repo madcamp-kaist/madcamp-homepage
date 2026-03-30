@@ -1,5 +1,5 @@
 <template>
-  <div class="history">
+<div class="history">
     <section class="hero is-dark is-medium">
       <div class="hero-body">
         <div class="container">
@@ -33,8 +33,8 @@
               </p>
 
               <p>
-                2023년 여름학기부터는 몰입캠프의 정신을 이어받은 <u><b>카이스트 학생들이 운영의 
-                주체</b></u> 가 되어 직접 몰입캠프를 기획하고 운영하고 있습니다. 
+                2023년 여름학기부터는 몰입캠프의 정신을 이어받은 <u><b>카이스트 학생들이 운영의
+                주체</b></u> 가 되어 직접 몰입캠프를 기획하고 운영하고 있습니다.
               </p>
               <p>
                 몰입캠프는 다년간의 운영 경험으로 개선과 발전을 거듭하였으며,
@@ -56,7 +56,11 @@
               <table class="table">
                 <tbody>
                   <tr>
-                    <td rowspan="1">2025</td>
+                    <td rowspan="2">2025</td>
+                    <td>겨울</td>
+                    <td>참가생 78명, 몰입캠프 20기</td>
+                  </tr>
+                  <tr>
                     <td>여름</td>
                     <td>참가생 80명, 몰입캠프 19기</td>
                   </tr>

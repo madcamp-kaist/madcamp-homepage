@@ -31,7 +31,7 @@
                 <th
                   class="subject">모집기간</th>
                 <td class="description" colspan="2">
-                  <time datetime="2025-10-17">2025년 10월 17일</time> - <time datetime="2024-11-7">11월 7일 (자정까지)</time><br>
+                  <time datetime="2026-04-06">2026년 4월 6일</time> - <time datetime="2026-05-01">5월 1일 (자정까지)</time><br>
                 </td>
               </tr>
 <!--
@@ -42,7 +42,7 @@
 -->
               <tr>
                 <th class="subject">강의계획서</th>
-                <td colspan="2"><a class="link" href="http://bit.ly/3KPRvYt">http://bit.ly/3KPRvYt</a></td>
+                <td colspan="2"><a class="link" href="https://docs.google.com/document/d/1tRuOnR0wFuGf29KwQQmIqOf3WjgCdVQz6qOCATC0_ME/edit?usp=sharing">2026 여름학기 실라버스</a></td>
               </tr>
               <tr>
                 <th class="subject">선발방법</th>
@@ -57,7 +57,7 @@
                 <th
                   class="subject">결과발표</th>
                 <td colspan="2">
-                  <time datetime="2025-11-13">2025년 11월 13일</time><br>
+                  <time datetime="2026-05-15">2026년 5월 15일</time><br>
                 </td>
               </tr>
 
@@ -71,7 +71,7 @@
                   캠프기간
                 </th>
                 <td class="description" colspan="2">
-                  <time datetime="2026-01-08">2026년 1월 8일</time> - <time datetime="2026-02-08">2026년 2월 8일</time>
+                  <time datetime="2026-01-08">2026년 7월 2일</time> - <time datetime="2026-02-08">2026년 8월 2일</time>
                 </td>
               </tr>
               <tr>
@@ -79,7 +79,7 @@
                   장소
                 </th>
                 <td colspan="2" class="description">
-                  대전 KAIST
+                  KAIST 대전 본원 E3-5 몰입강의실(오프라인)
                 </td>
               </tr>
               <tr>
@@ -118,7 +118,17 @@
               </tr>
               <tr>
                 <th class="subject">참가생 준비사항</th>
-                <td colspan="2">노트북은 개인 지참, OS 종류(윈도우,맥)는 관계 없음<br>최소사양: 윈도우10 64bit, MacOS 10.14, RAM 8G, CPU i5 이상 /<br> 권장사양: RAM 16G 이상</td>
+                <td colspan="2">
+노트북은 개인 지참, OS 종류(Windows, macOS)는 관계 없음<br><br>
+
+<b>[macOS]</b><br>
+최소사양: macOS 14 Sonoma 이상, Apple Silicon(M1 이상), RAM 8GB 이상, 여유 저장 공간 40GB 이상<br>
+권장사양: M2 이상, RAM 16GB 이상<br><br>
+
+<b>[Windows]</b><br>
+최소사양: Windows 11 이상, Intel 8세대 i5 또는 AMD Ryzen 3 이상, RAM 8GB 이상, 여유 저장 공간 40GB 이상<br>
+권장사양: Intel 12세대 i5 또는 AMD Ryzen 5 이상, RAM 16GB 이상
+</td>
               </tr>
 
             </tbody>
