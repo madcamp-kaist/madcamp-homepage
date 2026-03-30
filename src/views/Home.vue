@@ -12,7 +12,7 @@
         </h1>
         <p class="prologue-subtitle">
           학생들이 자율적으로 집중개발을 경험하는 프로그래밍 캠프
-        </p> 
+        </p>
         <div class="prologue-buttons">
           <button @click="closeAndGo('/', 'intro')" class="button button-primary">알아보기</button>
           <button @click="closeAndGo('/apply')" class="button button-secondary">지원하기</button>
@@ -84,7 +84,7 @@
             <h2 class="column is-offset-1 is-2">목적</h2>
             <div class="column is-6">
               <p>
-                본 코스의 목표는,
+                본 캠프의 목표는,
                 <u> <b>참가한 학생들의 성장과 참가자들의 네트워킹</b></u
                 >입니다.
               </p>
@@ -186,7 +186,7 @@
               </p>
               <p class="author">
                 윤OO <br />
-                KAIST 19학번
+                KAIST 21학번
               </p>
             </div>
             <div class="column">
@@ -200,7 +200,7 @@
               </p>
               <p class="author">
                 오OO <br />
-                숙명여대 17학번
+                숙명여대 22학번
               </p>
             </div>
             <div class="column">
@@ -237,7 +237,7 @@
               </p>
               <p class="author">
                 이OO <br />
-                고려대 17학번
+                고려대 20학번
               </p>
             </div>
             <div class="column">
@@ -251,7 +251,7 @@
               </p>
               <p class="author">
                 진OO <br />
-                성균관대 16학번
+                성균관대 23학번
               </p>
             </div>
             <div class="column">
@@ -265,7 +265,7 @@
               </p>
               <p class="author">
                 김OO <br />
-                포항공대 18학번
+                포항공대 24학번
               </p>
             </div>
           </div>
@@ -289,23 +289,23 @@
                 <br /><br />
                 <div class="person columns">
                   <div class="column is-2 description">
-                    <h4>구자윤</h4>
+                    <h4>주영준</h4>
                     <h6 class="sub">총괄</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>박성준</h4>
+                    <h4>박지민</h4>
                     <h6 class="sub">기술지원부</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>이서진</h4>
+                    <h4>라태형</h4>
                     <h6 class="sub">대외협력부</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>김병주</h4>
+                    <h4>송재훈</h4>
                     <h6 class="sub">재정관리부</h6>
                   </div>
                   <div class="column is-2 description">
-                    <h4>석인호</h4>
+                    <h4>강우현</h4>
                     <h6 class="sub">참가관리부</h6>
                   </div>
                 </div>
@@ -328,7 +328,7 @@
                     <table class="table career">
                       <tbody>
                         <tr>
-                          <td>KAIST 전산학부 학부장 (2021-)</td>
+                          <td>KAIST 전산학부 학부장 (2021-2026)</td>
                         </tr>
                         <tr>
                           <td>KAIST 포용성 위원회 위원장 (2017-)</td>
@@ -403,7 +403,7 @@ export default {
         el.scrollIntoView({ behavior: 'smooth' })
       }
     }
-  }  
+  }
 };
 </script>
 
@@ -523,7 +523,7 @@ export default {
 .prologue-title {
   font-size: 4.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
