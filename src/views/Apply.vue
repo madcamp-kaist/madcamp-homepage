@@ -147,7 +147,7 @@
           <p>또한, 몰입캠프 참가자로 선정된 후 취소할 경우, 추후 재지원 시 선발 우선순위가 크게 낮아질 수 있습니다.</p>
           <p><u><b>Internet Explorer에서 강의 계획서 및 지원서가 열리지 않을 수 있으므로, Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
           <br>
-          <a href="https://forms.gle/jixR61fa37hFcKxk8" target="_blank" class="button is-primary is-large">지원서 작성</a>
+          <a href="https://forms.gle/yGgxu9qeTsuXbtTYA" target="_blank" class="button is-primary is-large">지원서 작성</a>
         </div>
       </div>
     </section>
