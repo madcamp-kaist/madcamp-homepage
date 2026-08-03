@@ -153,9 +153,14 @@ export default {
   }
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
 
-  .navbar-menu {
-    max-height: calc(100vh - 6rem);
-    overflow-y: auto;
+  // 버거 메뉴로 접히는 폭에서만 스크롤을 건다.
+  // 데스크톱에서 .navbar-menu에 overflow를 주면 절대 위치인
+  // .navbar-dropdown이 메뉴 박스 높이로 클리핑되어 드롭다운이 사라진다.
+  @media screen and (max-width: 1023px) {
+    .navbar-menu {
+      max-height: calc(100vh - 6rem);
+      overflow-y: auto;
+    }
   }
 }
 
