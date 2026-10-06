@@ -147,7 +147,8 @@
           <p>또한, 몰입캠프 참가자로 선정된 후 취소할 경우, 추후 재지원 시 선발 우선순위가 크게 낮아질 수 있습니다.</p>
           <p><u><b>Internet Explorer에서 강의 계획서 및 지원서가 열리지 않을 수 있으므로, Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
           <br>
-          <a href="https://forms.gle/AXVMyYVYdoHhLaqR9" target="_blank" class="button is-primary is-large">지원서 작성</a>
+          <a v-if="isApplyOpen" href="https://forms.gle/AXVMyYVYdoHhLaqR9" target="_blank" class="button is-primary is-large">지원서 작성</a>
+          <button v-else class="button is-primary is-large" disabled>10월 12일부터 지원 가능</button>
         </div>
       </div>
     </section>
@@ -155,7 +156,15 @@
 </template>
 
 <script>
+// 모집 시작 시각(KST) 전에는 지원서 링크를 비활성화. 다음 학기에는 날짜와 버튼 문구를 함께 수정.
+const APPLY_OPEN_AT = new Date('2026-10-12T00:00:00+09:00')
+
 export default {
+  data () {
+    return {
+      isApplyOpen: Date.now() >= APPLY_OPEN_AT.getTime()
+    }
+  },
   metaInfo: {
     title: '지원하기 | 몰입캠프',
     meta: [
