@@ -31,7 +31,7 @@
                 <th
                   class="subject">모집기간</th>
                 <td class="description" colspan="2">
-                  <time datetime="2026-04-06">2026년 4월 6일</time> - <time datetime="2026-05-01">5월 1일 (자정까지)</time><br>
+                  <time datetime="2026-10-12">2026년 10월 12일</time> - <time datetime="2026-11-08">11월 8일 (자정까지)</time><br>
                 </td>
               </tr>
 <!--
@@ -42,7 +42,7 @@
 -->
               <tr>
                 <th class="subject">강의계획서</th>
-                <td colspan="2"><a class="link" href="https://docs.google.com/document/d/1tRuOnR0wFuGf29KwQQmIqOf3WjgCdVQz6qOCATC0_ME/edit?usp=sharing">2026 여름학기 실라버스</a></td>
+                <td colspan="2"><a class="link" href="https://docs.google.com/document/d/1zWb84lNDzquVyMJ0Di3u1pXgsoCeOlrW_FKyuiN5q84/edit?usp=sharing">2026 겨울학기 실라버스</a></td>
               </tr>
               <tr>
                 <th class="subject">선발방법</th>
@@ -57,7 +57,7 @@
                 <th
                   class="subject">결과발표</th>
                 <td colspan="2">
-                  <time datetime="2026-05-15">2026년 5월 15일</time><br>
+                  <time datetime="2026-11-16">2026년 11월 16일</time><br>
                 </td>
               </tr>
 
@@ -71,7 +71,7 @@
                   캠프기간
                 </th>
                 <td class="description" colspan="2">
-                  <time datetime="2026-01-08">2026년 7월 2일</time> - <time datetime="2026-02-08">2026년 8월 2일</time>
+                  <time datetime="2026-12-31">2026년 12월 31일</time> - <time datetime="2027-01-31">2027년 1월 31일</time>
                 </td>
               </tr>
               <tr>
@@ -147,7 +147,7 @@
           <p>또한, 몰입캠프 참가자로 선정된 후 취소할 경우, 추후 재지원 시 선발 우선순위가 크게 낮아질 수 있습니다.</p>
           <p><u><b>Internet Explorer에서 강의 계획서 및 지원서가 열리지 않을 수 있으므로, Chrome, Safari 등 다른 브라우저를 이용해 주세요.</b></u></p>
           <br>
-          <a href="https://forms.gle/yGgxu9qeTsuXbtTYA" target="_blank" class="button is-primary is-large">지원서 작성</a>
+          <a href="https://forms.gle/AXVMyYVYdoHhLaqR9" target="_blank" class="button is-primary is-large">지원서 작성</a>
         </div>
       </div>
     </section>

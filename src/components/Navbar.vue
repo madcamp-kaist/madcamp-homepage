@@ -43,7 +43,7 @@
             </a>
             <hr class="navbar-divider" style="background-color: whitesmoke">
             <a
-              href="https://docs.google.com/document/d/1tRuOnR0wFuGf29KwQQmIqOf3WjgCdVQz6qOCATC0_ME/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1zWb84lNDzquVyMJ0Di3u1pXgsoCeOlrW_FKyuiN5q84/edit?usp=sharing"
               class="navbar-item syllabus"
               target="_blank">
               강의계획서
